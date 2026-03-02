@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Gonza Vizard</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="buttons">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+            <div class="title">admin@infra: ~</div>
+        </div>
+
+        <div class="terminal-body">
+            <p class="prompt">guest@machine:~$ whoami</p>
+            <section class="user-info">
+                <h1 class="user-name">GONZALO ACEVEDO</h1>
+                <p class="user-role">Técnico informático especializado en:</p>
+                <div class="user-tags">
+                    <span>[ Infraestructura ]</span>
+                    <span>[ Redes ]</span>
+                    <span>[ Automatizaciones ]</span>
+                </div>
+            </section>
+
+            <div class="divider">------------------------------------------</div>
+
+            <p class="prompt" id="projects-prompt">guest@machine:~$ </p>
+            <div id="markdown-render"></div>
+
+            <p class="prompt">
+                <span class="cursor-path">guest@machine:~$</span>
+                <span class="blink">_</span>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
