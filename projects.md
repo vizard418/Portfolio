@@ -1,7 +1,7 @@
 # Mis Proyectos
 
 ## 1. FeLine
-Cliente CLI para IA generativa con integración nativa de shell (Bash/PowerShell). Permite inyectar salidas del sistema y archivos locales directamente en el flujo conversacional para automatización de tareas mediante lenguaje natural.
+Cliente de linea de comandos (CLI) para modelos de IA generativa con integracion de shell. Permite inyectar salidas del sistema y archivos directamente en el flujo conversacional para automatizar tareas mediante lenguaje natural.
 - **Tecnologias:** Python, Bash, Batch
 - [Ver Proyecto](https://github.com/vizard418/FeLine)
 
@@ -16,6 +16,6 @@ Utilidad de escritorio para indexacion y cruce de datos en archivos Excel extens
 - [Ver Proyecto](https://github.com/vizard418/PyMatchXLSX)
 
 ## 4. Dotfiles.d
-Entorno de trabajo Linux optimizado bajo el esquema Gruvbox. Centraliza la configuracion de i3wm, Picom y terminales CLI, priorizando la eficiencia operativa mediante flujos de trabajo basados exclusivamente en teclado.
+Entorno de trabajo Linux optimizado bajo el esquema Gruvbox. Centraliza la configuracion a nivel sistema operativo y otras herramientas, priorizando la eficiencia operativa mediante flujos de trabajo basados exclusivamente en teclado.
 - **Tecnologias:** Bash, Lua, X11 Config
 - [Ver Repositorio](https://github.com/vizard418/Dotfiles.d)
