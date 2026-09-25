@@ -10,12 +10,17 @@ PWA orientada a la gestion visual de entrenamientos con persistencia offline. Im
 - **Tecnologias:** JS (ES6), PWA, Web APIs, JSON
 - [Visitar Sitio](https://vizard418.github.io/WorkoutApp/)
 
-## 3. PyMatchXLSX
+## 3. Grimoire.d
+Una colección de scripts de uso general de facil integración pensados para automatizar tareas en mi flujo de trabajo.
+- **Tecnologias:** Python, SQL Script
+- [Ver Repositorio](https://vizard418.github.io/Grimoire.d/)
+
+## 4. PyMatchXLSX
 Utilidad de escritorio para indexacion y cruce de datos en archivos Excel extensos. Optimiza la busqueda de registros en multiples hojas de calculo mediante una interfaz grafica eficiente y logica de filtrado de alto rendimiento.
 - **Tecnologias:** Python, PyQt5
 - [Ver Proyecto](https://github.com/vizard418/PyMatchXLSX)
 
-## 4. Dotfiles.d
+## 5. Dotfiles.d
 Entorno de trabajo Linux optimizado bajo el esquema Gruvbox. Centraliza la configuracion a nivel sistema operativo y otras herramientas, priorizando la eficiencia operativa mediante flujos de trabajo basados exclusivamente en teclado.
 - **Tecnologias:** Bash, Lua, X11 Config
 - [Ver Repositorio](https://github.com/vizard418/Dotfiles.d)
