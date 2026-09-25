@@ -13,7 +13,7 @@ PWA orientada a la gestion visual de entrenamientos con persistencia offline. Im
 ## 3. Grimoire.d
 Una colección de scripts de uso general de facil integración pensados para automatizar tareas en mi flujo de trabajo.
 - **Tecnologias:** Python, SQL Script
-- [Ver Repositorio](https://vizard418.github.io/Grimoire.d/)
+- [Ver Repositorio](https://github.com/vizard418/Grimoire.d)
 
 ## 4. PyMatchXLSX
 Utilidad de escritorio para indexacion y cruce de datos en archivos Excel extensos. Optimiza la busqueda de registros en multiples hojas de calculo mediante una interfaz grafica eficiente y logica de filtrado de alto rendimiento.
