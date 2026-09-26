@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Gonza Vizard</title>
-    
+
     <link rel="icon" type="image/x-icon" href="favicon.png">
 
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -13,6 +13,10 @@
 </head>
 <body>
 
+    <div id="code-background" aria-hidden="true">
+        <div class="code-overlay"></div>
+    </div>
+
     <div class="terminal">
         <div class="terminal-header">
             <div class="buttons">
@@ -20,14 +24,21 @@
                 <span class="minimize"></span>
                 <span class="maximize"></span>
             </div>
-            <div class="title">admin@infra: ~</div>
+
+            <div class="title">vizard418@machine: ~</div>
         </div>
 
         <div class="terminal-body">
-            <p class="prompt">guest@machine:~$ whoami</p>
+
+            <p class="prompt">vizard418@machine:~$ whoami</p>
+
             <section class="user-info">
                 <h1 class="user-name">GONZALO ACEVEDO</h1>
-                <p class="user-role">Técnico informático especializado en:</p>
+
+                <p class="user-role">
+                    Técnico informático especializado en:
+                </p>
+
                 <div class="user-tags">
                     <span>[ Infraestructura ]</span>
                     <span>[ Redes ]</span>
@@ -35,15 +46,21 @@
                 </div>
             </section>
 
-            <div class="divider">------------------------------------------</div>
+            <div class="divider">
+                ------------------------------------------
+            </div>
 
-            <p class="prompt" id="projects-prompt">guest@machine:~$ </p>
+            <p class="prompt" id="projects-prompt">
+                vizard418@machine:~$
+            </p>
+
             <div id="markdown-render"></div>
 
             <p class="prompt">
-                <span class="cursor-path">guest@machine:~$</span>
+                <span class="cursor-path">vizard418@machine:~$</span>
                 <span class="blink">_</span>
             </p>
+
         </div>
     </div>
 
